@@ -9,7 +9,7 @@ This library **is not** a driver, it is only translator, you should use specific
 Install it with NPM or add it to your package.json:
 
 ``` bash
-$ npm install json-sql
+$ npm install --save json-sql
 ```
 
 Then:
@@ -127,13 +127,13 @@ For more examples, take a look at the [./docs directory](./docs) or [./tests dir
 Clone repository from github, `cd` into cloned dir and install dev dependencies:
 
 ``` bash
-$ npm install
+$ npm ci
 ```
 
 Then run tests with command:
 
 ``` bash
-$ gulp test
+$ npm run test:unit
 ```
 
 Or run tests coverage with command:
