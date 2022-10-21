@@ -18,14 +18,11 @@
     "database"
   ],
   "dependencies": {
-    "underscore": "^1.13.1"
+    "underscore": "^1.13.6"
   },
   "devDependencies": {
-    "chai": "2.2.0",
-    "gulp": "^3.8.11",
-    "gulp-istanbul": "^0.10.0",
-    "gulp-jshint": "^1.10.0",
-    "gulp-mocha": "^2.0.1"
+    "chai": "^4.3.6",
+    "mocha": "^10.1.0"
   },
   "main": "./lib/index"
 }
